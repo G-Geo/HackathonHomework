@@ -1,0 +1,45 @@
+#theMan {
+    height: 400px;
+  
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#wrapper {
+    display: flex;
+   justify-content: center;
+}
+
+#theBoard {
+    text-align: center;
+    margin-left: auto;
+    font-size: 3em;
+    margin-bottom: 20pt;
+}
+
+#imageWrapper {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#wrongLetterWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15pt;
+}
+#badGuess{
+    text-align: center;
+    font-size: 2em;
+}
+
+#wrongLetters{
+    text-align: center;
+    font-size: 2em;
+}

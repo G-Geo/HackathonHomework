@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="mainBody">
+    <div id="theMan"></div>
+    <div id="theBoard"></div>
+    <div id="wrapper">
+        <button id="resetButton" onclick=resetManGame()>Reset Game</button>
+        <input id ="inputBox" type="text" maxlength="1" pattern="[a-z]" placeholder="lowercase letters only"></input>
+        <button id="hangManButton" onclick=hangManGame()>Check Guess</button>
+    </div>
+    <div id="wrongLetterWrapper">
+        <div id="badGuess">wrong guesses:</div>
+        <div id="wrongLetters"> </div>
+    </div>
+
+</body>
+</html>
